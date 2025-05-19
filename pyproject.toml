@@ -14,7 +14,10 @@ dependencies = [
 Documentation = "https://flask.palletsprojects.com/tutorial/"
 
 [project.optional-dependencies]
-test = ["pytest"]
+dev = [
+    "pytest",
+    "flake8"
+]
 
 [build-system]
 requires = ["flit_core<4"]
@@ -39,6 +42,5 @@ source = ["flaskr", "tests"]
 [tool.ruff]
 src = ["src"]
 
-[project.optional-dependencies]
-dev = ["pytest", "flake8"]
+
 
