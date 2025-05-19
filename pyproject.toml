@@ -38,3 +38,7 @@ source = ["flaskr", "tests"]
 
 [tool.ruff]
 src = ["src"]
+
+[project.optional-dependencies]
+dev = ["pytest", "flake8"]
+
