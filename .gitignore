@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+
+# Flask instance folder (contains secrets/db)
+instance/
+
+# Test cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# Distribution/build
+*.egg-info/
+dist/
+build/
+
+# SQLite database
+*.sqlite
+
+# OS files
+.DS_Store
+
+# Logs
+*.log
