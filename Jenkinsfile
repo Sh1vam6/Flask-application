@@ -4,7 +4,7 @@ pipeline {
     environment {
         IMAGE_NAME = 'sh1vam6/flask-application:latest'
         CONTAINER_NAME = 'flask-application'
-        EMAIL_RECIPIENTS = 'peakyjohn526@gmial.com'
+        EMAIL_RECIPIENTS = 'peakyjohn526@gmail.com'
     }
 
     stages {
